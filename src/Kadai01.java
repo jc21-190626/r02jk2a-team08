@@ -8,7 +8,14 @@ public class Kadai01 {
 	 * @return ���E�𔽓]��������
 	 */
 	String ReverseString(String s) {
-		//TODO プログラムをここに作成する
-		return "";
+		char[] array = s.toCharArray();
+		char work;
+		int i,j;
+		for (i = 0,j = array.length -1; i<j;i++, j--) {
+			work =array[i];
+			array[i] = array[i];
+			array[j] = work;
+		}
+		return new String(array);
 	}
 }
