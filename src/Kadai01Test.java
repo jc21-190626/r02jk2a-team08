@@ -13,6 +13,7 @@ class Kadai01Test {
 		assertEquals(8642,k.ReverseString("2468"));
 		assertEquals(7531,k.ReverseString("1357"));
 		assertEquals("GFEDCBA",k.ReverseString("ABCDEFG"));
+
 	}
 
 
