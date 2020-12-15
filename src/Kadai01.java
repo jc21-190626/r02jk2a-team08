@@ -13,7 +13,7 @@ public class Kadai01 {
 		int i,j;
 		for (i = 0,j = array.length -1; i<j;i++, j--) {
 			work =array[i];
-			array[i] = array[i];
+			array[i] = array[j];
 			array[j] = work;
 		}
 		return new String(array);
